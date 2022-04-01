@@ -27,3 +27,6 @@ def test_timestamp(timestamp,target,expected,env_config):
     result = r.json()
     assert str(result['before'])==expected
 
+if __name__ == '__main__':
+    pytest.main(['--html=./report.html','test_postman_api.py'])
+
