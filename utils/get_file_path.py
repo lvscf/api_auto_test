@@ -7,7 +7,7 @@
 '''
 import os
 
-project_name="api_auto_test"
+project_name="api_auto_test_2"
 def get_root_path():
     '''
     获取根路径
@@ -15,6 +15,7 @@ def get_root_path():
     :return:
     '''
     curPath = os.path.abspath(os.path.dirname(__file__))
+    print(curPath)
     rootPath = curPath[:curPath.find(project_name+"/") + len(project_name+"/")]  # 获取myProject，也就是项目的根路径
     # print("rootPath= %s",rootPath)
     return rootPath
