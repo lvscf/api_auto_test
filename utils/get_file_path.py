@@ -7,7 +7,7 @@
 '''
 import os
 
-project_name="api_auto_test_2"
+project_name="api_auto_test"
 def get_root_path():
     '''
     获取根路径
